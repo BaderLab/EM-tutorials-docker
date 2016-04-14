@@ -22,11 +22,11 @@ This docker build creates an image that contains all programs and libraries requ
 ### Running
 1. To run the above docker image you need modify the below to contain the ip of the computer you are working on.  Change 192.168.0.10 to your IP.
 
-	$ docker run --rm -it -p 8888:8888  --add-host="localhost:192.168.0.10" -v "$(pwd)/notebooks:/home/jovyan/work" emtutorial/emtutorial
+        $ docker run --rm -it -p 8888:8888  --add-host="localhost:192.168.0.10" -v "$(pwd)/notebooks:/home/jovyan/work" emtutorial/emtutorial
 
 1. Get IP of docker image
 
-	$ docker-machine ip
+        $ docker-machine ip
 
 1. You can now access the Enrichment Map Tutorial Docker from you browser: http://ip-of-docker-machine:8888 
 	
