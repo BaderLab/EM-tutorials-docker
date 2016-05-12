@@ -1,0 +1,436 @@
+Gene Symbol,Cancer Gene Census,MuSIC,OncodriveFM,OncodriveCLUST,ActiveDriver,MutSig,Putative Driver Category
+AARS2,,,,,,Selected,High Confidence Driver
+ABCB1,,Selected,Selected,,,Selected,High Confidence Driver
+ABL1,CGC,,,,Selected,,High Confidence Driver
+ACVR1B,,Selected,Selected,,,,High Confidence Driver
+ADAM10,,,Selected,,,,High Confidence Driver
+ADCY1,,Selected,,,,,High Confidence Driver
+ADORA2A,,Selected,,,,,High Confidence Driver
+AHNAK2,,Selected,,,Selected,,High Confidence Driver
+AJUBA,,Selected,Selected,,,,High Confidence Driver
+AKAP9,CGC,,Selected,,,Selected,High Confidence Driver
+AKD1,,,,,,Selected,High Confidence Driver
+AKT1,CGC,Selected,Selected,Selected,,Selected,High Confidence Driver
+AMPH,,Selected,,,,,High Confidence Driver
+ANAPC1,,,,,Selected,,High Confidence Driver
+ANKRD12,,,Selected,,,Selected,High Confidence Driver
+APAF1,,,Selected,,,,High Confidence Driver
+APC,CGC,Selected,Selected,Selected,,Selected,High Confidence Driver
+AR,,Selected,,,,,High Confidence Driver
+ARHGAP32,,,,,Selected,,High Confidence Driver
+ARHGAP35,,Selected,Selected,,,,High Confidence Driver
+ARHGEF6,,,Selected,,,,High Confidence Driver
+ARID1A,CGC,Selected,Selected,,,Selected,High Confidence Driver
+ARID2,CGC,,Selected,,,Selected,High Confidence Driver
+ARID5B,,Selected,Selected,,,,High Confidence Driver
+ASPM,,Selected,,,Selected,,High Confidence Driver
+ASXL1,CGC,Selected,Selected,,,,High Confidence Driver
+ATG13,,,Selected,,,,High Confidence Driver
+ATM,CGC,Selected,Selected,,,Selected,High Confidence Driver
+ATR,,Selected,Selected,,,,High Confidence Driver
+ATRX,CGC,Selected,Selected,,Selected,Selected,High Confidence Driver
+AXIN2,,Selected,Selected,,,,High Confidence Driver
+B2M,,,Selected,Selected,,Selected,High Confidence Driver
+BAP1,CGC,Selected,Selected,,,Selected,High Confidence Driver
+BARD1,,,,,Selected,,High Confidence Driver
+BCLAF1,,Selected,,,Selected,,High Confidence Driver
+BCOR,CGC,,,,,Selected,High Confidence Driver
+BLM,CGC,,Selected,,,Selected,High Confidence Driver
+BRAF,CGC,Selected,,Selected,Selected,Selected,High Confidence Driver
+BRCA1,CGC,Selected,Selected,,,Selected,High Confidence Driver
+BRCA2,CGC,Selected,Selected,,,Selected,High Confidence Driver
+BUB1B,CGC,,,,,Selected,High Confidence Driver
+CAD,,,Selected,,,,High Confidence Driver
+CARM1,,,Selected,,,,High Confidence Driver
+CASP8,,Selected,Selected,Selected,,Selected,High Confidence Driver
+CAST,,,Selected,,Selected,,High Confidence Driver
+CBFB,CGC,Selected,Selected,Selected,,Selected,High Confidence Driver
+CCAR1,,,Selected,,,,High Confidence Driver
+CCND1,CGC,Selected,Selected,,Selected,Selected,High Confidence Driver
+CDC73,CGC,,Selected,,,,High Confidence Driver
+CDH1,CGC,Selected,Selected,,,Selected,High Confidence Driver
+CDK12,CGC,Selected,Selected,,Selected,Selected,High Confidence Driver
+CDKN1A,,Selected,Selected,,,Selected,High Confidence Driver
+CDKN1B,,Selected,Selected,,,Selected,High Confidence Driver
+CDKN2A,CGC,Selected,Selected,Selected,,Selected,High Confidence Driver
+CDKN2C,CGC,Selected,,,,,High Confidence Driver
+CEBPA,CGC,Selected,Selected,,,Selected,High Confidence Driver
+CFH,,Selected,Selected,,,,High Confidence Driver
+CHD4,,,Selected,,,Selected,High Confidence Driver
+CHD8,,,Selected,,,,High Confidence Driver
+CHEK2,CGC,Selected,,Selected,,Selected,High Confidence Driver
+CIC,CGC,,,,Selected,,High Confidence Driver
+CLIP1,,,,,Selected,,High Confidence Driver
+CLTC,CGC,,Selected,,,,High Confidence Driver
+CLTCL1,CGC,,,,Selected,,High Confidence Driver
+COL18A1,,Selected,,,,,High Confidence Driver
+CREB1,CGC,,,,,Selected,High Confidence Driver
+CRTC1,CGC,Selected,,,,,High Confidence Driver
+CRTC3,CGC,,,,Selected,,High Confidence Driver
+CSDE1,,Selected,,,,,High Confidence Driver
+CTCF,,Selected,Selected,Selected,Selected,Selected,High Confidence Driver
+CTNNB1,CGC,Selected,Selected,Selected,Selected,Selected,High Confidence Driver
+CTNND1,,,Selected,,,,High Confidence Driver
+CTTN,,,Selected,,,,High Confidence Driver
+CUL1,,,Selected,,,,High Confidence Driver
+CYLD,CGC,,Selected,,,,High Confidence Driver
+DDX5,CGC,,,,,Selected,High Confidence Driver
+DHX9,,,Selected,,,,High Confidence Driver
+DICER1,CGC,,Selected,,,,High Confidence Driver
+DMD,,Selected,,,,Selected,High Confidence Driver
+DNMT3A,CGC,Selected,Selected,Selected,,Selected,High Confidence Driver
+DOCK2,,Selected,,,,,High Confidence Driver
+EEF1A1,,,Selected,,Selected,,High Confidence Driver
+EGFR,CGC,Selected,Selected,Selected,Selected,Selected,High Confidence Driver
+EIF4A2,CGC,Selected,,,,,High Confidence Driver
+ELF3,,Selected,Selected,,,Selected,High Confidence Driver
+EP300,CGC,Selected,Selected,,,Selected,High Confidence Driver
+ERBB2,CGC,,,Selected,Selected,Selected,High Confidence Driver
+ERBB2IP,,,,,Selected,,High Confidence Driver
+ERCC2,CGC,Selected,Selected,,,Selected,High Confidence Driver
+ESR1,,,,,Selected,,High Confidence Driver
+EWSR1,CGC,,,,,Selected,High Confidence Driver
+EZH2,CGC,Selected,,,,,High Confidence Driver
+FANCA,CGC,,,,,Selected,High Confidence Driver
+FBN2,,Selected,Selected,,,,High Confidence Driver
+FBXO11,CGC,,,,,Selected,High Confidence Driver
+FBXW7,CGC,Selected,Selected,Selected,,Selected,High Confidence Driver
+FES,,,Selected,,,,High Confidence Driver
+FGFR2,CGC,Selected,Selected,Selected,,Selected,High Confidence Driver
+FGFR3,CGC,Selected,Selected,Selected,,Selected,High Confidence Driver
+FLT3,CGC,Selected,Selected,Selected,Selected,Selected,High Confidence Driver
+FN1,,,Selected,,,,High Confidence Driver
+FOXA1,,Selected,Selected,,,,High Confidence Driver
+FOXA2,,Selected,Selected,Selected,,,High Confidence Driver
+FRG1B,,Selected,Selected,Selected,,,High Confidence Driver
+GATA3,CGC,Selected,Selected,,,Selected,High Confidence Driver
+GNAI1,,,Selected,,,,High Confidence Driver
+GNAS,CGC,,Selected,,,Selected,High Confidence Driver
+GOLGA5,CGC,,Selected,,,Selected,High Confidence Driver
+GOT2,,,Selected,Selected,,,High Confidence Driver
+GPHN,CGC,,,,,Selected,High Confidence Driver
+GPS2,,Selected,,,,Selected,High Confidence Driver
+GTF2H1,,,Selected,,,,High Confidence Driver
+H3F3C,,Selected,Selected,,,,High Confidence Driver
+HGF,,Selected,,,,,High Confidence Driver
+HLA-A,,Selected,Selected,,,Selected,High Confidence Driver
+HLA-B,,Selected,Selected,,,,High Confidence Driver
+HMGXB4,,Selected,Selected,,,,High Confidence Driver
+HRAS,CGC,,Selected,Selected,,Selected,High Confidence Driver
+HSP90AB1,CGC,,Selected,,,,High Confidence Driver
+HSPA8,,,,,Selected,,High Confidence Driver
+HUWE1,,,,,Selected,,High Confidence Driver
+IDH1,CGC,Selected,Selected,Selected,Selected,Selected,High Confidence Driver
+IDH2,CGC,Selected,Selected,Selected,Selected,Selected,High Confidence Driver
+IRS2,,Selected,,,,,High Confidence Driver
+ITGA6,,,,,Selected,,High Confidence Driver
+JAK2,CGC,,,,,Selected,High Confidence Driver
+KALRN,,,Selected,,,,High Confidence Driver
+KDM5C,CGC,Selected,Selected,,,Selected,High Confidence Driver
+KDM6A,CGC,Selected,Selected,Selected,,Selected,High Confidence Driver
+KEAP1,,Selected,Selected,Selected,,Selected,High Confidence Driver
+KIAA1109,,,Selected,,,Selected,High Confidence Driver
+KIFC3,,Selected,,,,,High Confidence Driver
+KIT,CGC,Selected,,Selected,Selected,Selected,High Confidence Driver
+KRAS,CGC,Selected,Selected,Selected,,Selected,High Confidence Driver
+LCP1,CGC,,,,,Selected,High Confidence Driver
+LEPR,,Selected,Selected,,,,High Confidence Driver
+LIFR,CGC,Selected,,,,,High Confidence Driver
+LPP,CGC,,Selected,,,,High Confidence Driver
+LRRK2,,Selected,,,Selected,,High Confidence Driver
+LUM,,Selected,,Selected,,,High Confidence Driver
+LYN,,,Selected,,,,High Confidence Driver
+LZTR1,,,Selected,Selected,,,High Confidence Driver
+MALAT1,CGC,Selected,,,,,High Confidence Driver
+MAP2K4,CGC,Selected,Selected,Selected,,Selected,High Confidence Driver
+MAP3K1,,Selected,Selected,,,Selected,High Confidence Driver
+MAP3K3,,,,,Selected,,High Confidence Driver
+MAP3K4,,,,,,Selected,High Confidence Driver
+MAPK8IP1,,Selected,,,,,High Confidence Driver
+MAST2,,,Selected,,Selected,,High Confidence Driver
+MATK,,,Selected,,,,High Confidence Driver
+MAX,,,Selected,Selected,,,High Confidence Driver
+MDC1,,,,,Selected,,High Confidence Driver
+MECOM,CGC,Selected,,,,,High Confidence Driver
+MED12,CGC,,,,,Selected,High Confidence Driver
+MED13,,,Selected,,,,High Confidence Driver
+MED17,,,Selected,,,,High Confidence Driver
+MEF2A,,,,,,Selected,High Confidence Driver
+METTL14,,Selected,Selected,Selected,,,High Confidence Driver
+MLL,CGC,,Selected,,Selected,,High Confidence Driver
+MLL2,CGC,Selected,Selected,,Selected,Selected,High Confidence Driver
+MLL3,CGC,Selected,Selected,,,Selected,High Confidence Driver
+MLLT10,CGC,,,,,Selected,High Confidence Driver
+MLLT3,CGC,,,,,Selected,High Confidence Driver
+MLLT4,CGC,,Selected,,Selected,,High Confidence Driver
+MMP2,,,Selected,,,,High Confidence Driver
+MN1,CGC,Selected,,,,,High Confidence Driver
+MSN,CGC,,,,,Selected,High Confidence Driver
+MST1,,,,Selected,,,High Confidence Driver
+MTOR,,Selected,Selected,,,,High Confidence Driver
+MYB,CGC,,Selected,,,Selected,High Confidence Driver
+MYH9,CGC,,Selected,,,Selected,High Confidence Driver
+NAV3,,Selected,Selected,,,,High Confidence Driver
+NBPF10,,Selected,,Selected,,,High Confidence Driver
+NCOA3,,,,,Selected,Selected,High Confidence Driver
+NCOA4,CGC,,,,,Selected,High Confidence Driver
+NCOR1,,Selected,Selected,,Selected,,High Confidence Driver
+NCOR2,,,,,Selected,,High Confidence Driver
+NEB,,,Selected,,Selected,,High Confidence Driver
+NEDD4L,,,Selected,,,,High Confidence Driver
+NF1,CGC,Selected,Selected,,,Selected,High Confidence Driver
+NFE2L2,CGC,Selected,Selected,Selected,Selected,Selected,High Confidence Driver
+NIN,CGC,,,,,Selected,High Confidence Driver
+NLRP3,,Selected,,,,,High Confidence Driver
+NONO,CGC,,,,,Selected,High Confidence Driver
+NOTCH1,CGC,Selected,Selected,,,Selected,High Confidence Driver
+NPM1,CGC,Selected,Selected,,,Selected,High Confidence Driver
+NR1H2,,,,,,Selected,High Confidence Driver
+NR4A2,,,,,,Selected,High Confidence Driver
+NRAS,CGC,Selected,Selected,Selected,Selected,Selected,High Confidence Driver
+NSD1,CGC,Selected,Selected,,,,High Confidence Driver
+NUMA1,CGC,Selected,,,,Selected,High Confidence Driver
+NUP214,CGC,,,,Selected,,High Confidence Driver
+NUP93,,,Selected,,,,High Confidence Driver
+NUP98,CGC,,,,,Selected,High Confidence Driver
+PABPC1,,Selected,,,,,High Confidence Driver
+PBRM1,CGC,Selected,Selected,,,Selected,High Confidence Driver
+PCBP1,,Selected,Selected,,,,High Confidence Driver
+PCM1,CGC,,,,Selected,,High Confidence Driver
+PDGFRA,CGC,Selected,,,,Selected,High Confidence Driver
+PHF6,CGC,Selected,Selected,,,Selected,High Confidence Driver
+PHLDA1,,Selected,,,,Selected,High Confidence Driver
+PIK3CA,CGC,Selected,Selected,Selected,,Selected,High Confidence Driver
+PIK3CB,,,Selected,,,,High Confidence Driver
+PIK3CG,,Selected,,,,,High Confidence Driver
+PIK3R1,CGC,Selected,Selected,Selected,Selected,Selected,High Confidence Driver
+PIP5K1A,,,Selected,,,,High Confidence Driver
+PLCG1,,,Selected,,,,High Confidence Driver
+PLEC,,Selected,,,Selected,,High Confidence Driver
+POTEF,,Selected,Selected,,,,High Confidence Driver
+PPP2R1A,CGC,Selected,Selected,Selected,,Selected,High Confidence Driver
+PRKAR1A,CGC,,,,,Selected,High Confidence Driver
+PRKCD,,,,,Selected,,High Confidence Driver
+PRPF8,,,Selected,,,,High Confidence Driver
+PSEN1,,Selected,,,,,High Confidence Driver
+PTEN,CGC,Selected,Selected,Selected,Selected,Selected,High Confidence Driver
+PTPN11,CGC,Selected,Selected,,Selected,Selected,High Confidence Driver
+RAC1,,,Selected,Selected,,Selected,High Confidence Driver
+RAD21,,Selected,,,,,High Confidence Driver
+RANBP2,,,,,Selected,,High Confidence Driver
+RANBP3,,,Selected,,,,High Confidence Driver
+RASA1,,Selected,Selected,,,Selected,High Confidence Driver
+RB1,CGC,Selected,Selected,,,Selected,High Confidence Driver
+RBMX,,,,,,Selected,High Confidence Driver
+RHEB,,,,Selected,,,High Confidence Driver
+RHOA,,,,,Selected,,High Confidence Driver
+RNF213,CGC,,,,Selected,,High Confidence Driver
+RNF43,,,,,,Selected,High Confidence Driver
+RPGR,,,,,,Selected,High Confidence Driver
+RPL22,CGC,Selected,Selected,,,,High Confidence Driver
+RPL5,,Selected,Selected,,,Selected,High Confidence Driver
+RPSAP58,,Selected,Selected,Selected,,,High Confidence Driver
+RUNX1,CGC,Selected,Selected,Selected,,Selected,High Confidence Driver
+RXRA,,,,Selected,,,High Confidence Driver
+SETD2,CGC,Selected,Selected,,,Selected,High Confidence Driver
+SF3B1,CGC,Selected,Selected,,,Selected,High Confidence Driver
+SGK1,,Selected,,,,,High Confidence Driver
+SIN3A,,Selected,,,,,High Confidence Driver
+SMAD2,,Selected,Selected,,,Selected,High Confidence Driver
+SMAD4,CGC,Selected,Selected,Selected,,Selected,High Confidence Driver
+SMARCA4,CGC,,Selected,,,Selected,High Confidence Driver
+SMC1A,,Selected,Selected,,,,High Confidence Driver
+SMC3,,Selected,,,Selected,,High Confidence Driver
+SOS1,,,Selected,,,,High Confidence Driver
+SOX17,,Selected,Selected,,,,High Confidence Driver
+SPATA6,,,Selected,Selected,,,High Confidence Driver
+SPEN,,Selected,,,Selected,,High Confidence Driver
+SPOP,,Selected,Selected,Selected,,Selected,High Confidence Driver
+STAG2,,Selected,Selected,,,Selected,High Confidence Driver
+STAT3,,,,,Selected,,High Confidence Driver
+STK11,CGC,Selected,Selected,,,Selected,High Confidence Driver
+SUZ12,CGC,,Selected,,,Selected,High Confidence Driver
+SYNE1,,Selected,,,Selected,,High Confidence Driver
+TAF1,,Selected,Selected,,,,High Confidence Driver
+TBL1XR1,,Selected,,,,Selected,High Confidence Driver
+TBX3,,Selected,Selected,,,Selected,High Confidence Driver
+TCF12,CGC,,Selected,,,,High Confidence Driver
+TCF7,,,Selected,,,,High Confidence Driver
+TCF7L2,CGC,Selected,Selected,,,,High Confidence Driver
+TET2,CGC,Selected,Selected,,,Selected,High Confidence Driver
+TFDP1,,,Selected,,,,High Confidence Driver
+TGFBR2,,Selected,Selected,,,,High Confidence Driver
+TGIF1,,Selected,,,,,High Confidence Driver
+TJP2,,,Selected,,,,High Confidence Driver
+TNFRSF10C,,Selected,,,,,High Confidence Driver
+TOM1,,,Selected,,,,High Confidence Driver
+TOP3A,,,Selected,,,,High Confidence Driver
+TP53,CGC,Selected,Selected,Selected,Selected,Selected,High Confidence Driver
+TP53BP1,,,Selected,,Selected,,High Confidence Driver
+TPR,CGC,,,,Selected,,High Confidence Driver
+TRIM7,,,,,,Selected,High Confidence Driver
+TRIO,,,Selected,,,,High Confidence Driver
+TRIP11,CGC,Selected,,,,,High Confidence Driver
+TSC2,CGC,,,,,Selected,High Confidence Driver
+TUBA1A,,,Selected,,,,High Confidence Driver
+TXNIP,,Selected,Selected,,,,High Confidence Driver
+U2AF1,CGC,Selected,Selected,Selected,,Selected,High Confidence Driver
+UHRF1BP1L,,,,,,Selected,High Confidence Driver
+VHL,CGC,Selected,Selected,Selected,Selected,Selected,High Confidence Driver
+WHSC1,CGC,,Selected,,Selected,,High Confidence Driver
+WHSC1L1,CGC,,Selected,,,,High Confidence Driver
+WRN,CGC,,,,,Selected,High Confidence Driver
+WT1,CGC,Selected,Selected,Selected,,Selected,High Confidence Driver
+ZFHX3,,Selected,Selected,,Selected,,High Confidence Driver
+ZFP36L1,,Selected,Selected,,,Selected,High Confidence Driver
+ZFP36L2,,Selected,,Selected,,,High Confidence Driver
+ZMYM2,CGC,,Selected,,,,High Confidence Driver
+ZNF132,,,,,,Selected,High Confidence Driver
+ZNF300,,,,,,Selected,High Confidence Driver
+ZNF814,,Selected,,Selected,,,High Confidence Driver
+ZNF844,,Selected,,Selected,,,High Confidence Driver
+ZNF91,,Selected,Selected,,,,High Confidence Driver
+AARS,,,Selected,,,,Candidate driver
+ACTB,,,Selected,,,,Candidate driver
+ACTG1,,,Selected,,,,Candidate driver
+ACVR2A,,Selected,Selected,,,,Candidate driver
+AHCTF1,,,,,Selected,,Candidate driver
+AHCYL2,,,Selected,,,,Candidate driver
+AHDC1,,Selected,,,,,Candidate driver
+AHNAK,,,,,Selected,,Candidate driver
+ANKRD11,,Selected,,,,,Candidate driver
+ANKRD6,,,Selected,,,,Candidate driver
+ANXA6,,,,,Selected,,Candidate driver
+ARAF,,,,,Selected,,Candidate driver
+ATF7IP,,,Selected,,,,Candidate driver
+BAZ1B,,,,,Selected,,Candidate driver
+BAZ2A,,Selected,Selected,,,,Candidate driver
+BCL9L,,,,,Selected,,Candidate driver
+CEP170,,,,,Selected,,Candidate driver
+CHD3,,,Selected,,,,Candidate driver
+CHD7,,,,,Selected,,Candidate driver
+CNOT1,,,Selected,,Selected,,Candidate driver
+CNOT3,,,Selected,,,,Candidate driver
+COBLL1,,,,,Selected,,Candidate driver
+CUL3,,,Selected,,,,Candidate driver
+CUX1,,,Selected,,,,Candidate driver
+CYC1,,,Selected,,,,Candidate driver
+DAB2IP,,,Selected,,,,Candidate driver
+DCP1B,,,,Selected,,,Candidate driver
+DDX3X,,,Selected,,,,Candidate driver
+DIDO1,,Selected,,,,,Candidate driver
+DIS3L2,,,Selected,,,,Candidate driver
+DNM3,,,Selected,,,,Candidate driver
+DOCK4,,,Selected,,,,Candidate driver
+DOT1L,,,Selected,,,,Candidate driver
+DST,,,Selected,Selected,,,Candidate driver
+EPB41L3,,Selected,,,,,Candidate driver
+EPHA3,,Selected,,,,,Candidate driver
+EPHB6,,Selected,,,,,Candidate driver
+EPPK1,,Selected,,,,,Candidate driver
+ERBB4,,Selected,,,,,Candidate driver
+FAM129B,,,,,Selected,,Candidate driver
+FCHO2,,,Selected,,,,Candidate driver
+FLNA,,,,,Selected,,Candidate driver
+FOSL2,,,Selected,,,,Candidate driver
+G3BP1,,,Selected,,,,Candidate driver
+GAB3,,,Selected,,,,Candidate driver
+GDI1,,,Selected,,,,Candidate driver
+GIGYF2,,,Selected,,,,Candidate driver
+GNL3L,,,,Selected,,,Candidate driver
+GRIN3A,,Selected,,,,,Candidate driver
+HERC1,,,Selected,,,,Candidate driver
+HIST1H1C,,Selected,,,,,Candidate driver
+HIST1H2BD,,Selected,,,,,Candidate driver
+IARS2,,,Selected,,,,Candidate driver
+IK,,Selected,,,,,Candidate driver
+ING1,,,Selected,,,,Candidate driver
+INPP4A,,,Selected,,,,Candidate driver
+INTS1,,,,,Selected,,Candidate driver
+JMJD1C,,,,,Selected,,Candidate driver
+KDM6B,,Selected,,,,,Candidate driver
+KIAA0947,,Selected,,,,,Candidate driver
+KIF20B,,,,,Selected,,Candidate driver
+LTBP1,,,Selected,,,,Candidate driver
+LUC7L2,,,Selected,,,,Candidate driver
+MACF1,,,Selected,,,,Candidate driver
+MAP1A,,,Selected,,,,Candidate driver
+MAP1B,,,,,Selected,,Candidate driver
+MAP4,,,,,Selected,,Candidate driver
+MARCKSL1,,Selected,,,,,Candidate driver
+MCM7,,,,,Selected,,Candidate driver
+MDN1,,,,,Selected,,Candidate driver
+MEGF6,,,Selected,,,,Candidate driver
+MGA,,,Selected,,,,Candidate driver
+MICAL1,,,Selected,,,,Candidate driver
+MKI67,,,,,Selected,,Candidate driver
+MME,,Selected,,,,,Candidate driver
+MTM1,,,Selected,,,,Candidate driver
+MYCBP2,,,Selected,,,,Candidate driver
+MYO1D,,,Selected,,,,Candidate driver
+NAA15,,,Selected,,,,Candidate driver
+NAV1,,,,,Selected,,Candidate driver
+NBEA,,Selected,,,,,Candidate driver
+NEK1,,,Selected,,,,Candidate driver
+NEK8,,,,Selected,,,Candidate driver
+NIPBL,,,,,Selected,,Candidate driver
+NMT2,,,Selected,,,,Candidate driver
+P4HB,,,,Selected,,,Candidate driver
+PABPC4,,,Selected,,,,Candidate driver
+PDS5A,,,,,Selected,,Candidate driver
+POLE,,,Selected,,,,Candidate driver
+PPFIA4,,,Selected,,,,Candidate driver
+PRDM2,,Selected,,,,,Candidate driver
+PRRC2A,,,,,Selected,,Candidate driver
+PRX,,Selected,,,,,Candidate driver
+PSMD11,,,Selected,,,,Candidate driver
+PSME3,,,,Selected,,,Candidate driver
+PTPN13,,,,,Selected,,Candidate driver
+PWP1,,,,,Selected,,Candidate driver
+QKI,,,Selected,,,,Candidate driver
+RAB11FIP5,,,,,Selected,,Candidate driver
+RAG1,,,Selected,,,,Candidate driver
+RALGAPA1,,,Selected,,,,Candidate driver
+RANGAP1,,,,Selected,,,Candidate driver
+RBFOX2,,,Selected,,,,Candidate driver
+RBM10,,,Selected,,,,Candidate driver
+RIF1,,,,,Selected,,Candidate driver
+RNF111,,,Selected,,,,Candidate driver
+RPP38,,,,,Selected,,Candidate driver
+RSRC1,,,Selected,,,,Candidate driver
+SEC23B,,,Selected,,,,Candidate driver
+SETX,,,,,Selected,,Candidate driver
+SH3PXD2A,,,,,Selected,,Candidate driver
+SLC25A10,,,Selected,,,,Candidate driver
+SLC3A2,,,,,Selected,,Candidate driver
+SMARCAD1,,,,,Selected,,Candidate driver
+SMC4,,,Selected,,,,Candidate driver
+SMCHD1,,,Selected,,,,Candidate driver
+SMYD4,,Selected,,,,,Candidate driver
+SOX9,,,Selected,,,,Candidate driver
+SPEG,,,,,Selected,,Candidate driver
+SPTAN1,,,Selected,,,,Candidate driver
+SRCAP,,,,,Selected,,Candidate driver
+SRRM2,,,,,Selected,,Candidate driver
+SSX2IP,,,,,Selected,,Candidate driver
+STIP1,,,Selected,,,,Candidate driver
+SVIL,,,,,Selected,,Candidate driver
+TANC2,,,Selected,,,,Candidate driver
+TGOLN2,,Selected,,,,,Candidate driver
+TICAM1,,Selected,,,,,Candidate driver
+TLR4,,Selected,,,,,Candidate driver
+TNKS1BP1,,,,,Selected,,Candidate driver
+TNPO1,,,Selected,,,,Candidate driver
+TPM1,,,,,Selected,,Candidate driver
+TTK,,,Selected,,,,Candidate driver
+UBE2Z,,,,,Selected,,Candidate driver
+UBE4A,,,Selected,,,,Candidate driver
+USP28,,,Selected,,,,Candidate driver
+USP9X,,Selected,,,,,Candidate driver
+UTP14A,,,,,Selected,,Candidate driver
+VEZT,,,Selected,,,,Candidate driver
+ZEB2,,,Selected,,,,Candidate driver
+ZMYM4,,,Selected,,,,Candidate driver
+ZMYND8,,,,,Selected,,Candidate driver
+ZNF451,,,Selected,,,,Candidate driver
+ZNF703,,Selected,,,,,Candidate driver
