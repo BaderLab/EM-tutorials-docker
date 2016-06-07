@@ -1,0 +1,40 @@
+<style>
+div.error {
+	padding : 20px;
+	border : 5px solid red;
+	border-radius : 30px;
+	background-color : orange;
+	box-shadow: 10px 10px 30px grey;
+	}
+div.warn {    
+    background-color: #fcf2f2;
+    border-color: #dFb5b4;
+    border-left: 5px solid #dfb5b4;
+    padding: 0.5em;
+    }
+div.tip {
+    background-color: #ff99cc;
+    border-color: #ff33cc;
+    border-left: 10px solid #ff33cc;
+    padding: 0.5em;
+}
+div.note {
+    background-color: #d9d9d9;
+    padding: 0.5em;
+}
+div.figlegend {
+    background-color: white;
+    border : 2px solid black;
+    padding: 2px;
+}
+.TextWrap{
+	float: right;
+	margin: 1px;
+}
+.indented { 
+	padding-left: 25pt; 
+	padding-right: 25pt; 
+}
+
+
+ </style>
