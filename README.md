@@ -3,11 +3,8 @@
 This docker build creates an image that contains all programs and libraries required to run the basic EM analysis described in the Enrichment Map Protocol.
 
 ### Build steps
-1. Install Docker. For OS X (with VMWare installed), you can use [Homebrew](http://brew.sh/):
-
-        $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-        $ brew install docker docker-compose docker-machine
-   
+1.  In order to run this docker image you need Docker and VMWare or Virtual box installed.
+ 
 1. For Mac osx follow the instruction [from docker](https://docs.docker.com/engine/installation/mac/)
 
 1. For windows follow the instructions [from docker](https://docs.docker.com/windows/step_one/)
