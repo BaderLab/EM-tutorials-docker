@@ -1,54 +1,93 @@
-FROM jupyter/r-notebook
+FROM jupyter/minimal-notebook
+
+MAINTAINER Jupyter Project <jupyter@googlegroups.com>
+
+USER root
+
+# R pre-requisites
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends \
+    fonts-dejavu \
+    gfortran \
+    gcc && apt-get clean && \
+    rm -rf /var/lib/apt/lists/*
+
+USER $NB_USER
+
+# R packages
+RUN conda config --add channels r && \
+    conda install --quiet --yes \
+    'r-base=3.2*' \
+    'r-irkernel=0.5*' \
+    'r-plyr=1.8*' \
+    'r-devtools=1.9*' \
+    'r-dplyr=0.4*' \
+    'r-ggplot2=1.0*' \
+    'r-tidyr=0.3*' \
+    'r-shiny=0.12*' \
+    'r-rmarkdown=0.8*' \
+    'r-forecast=5.8*' \
+    'r-stringr=0.6*' \
+    'r-rsqlite=1.0*' \
+    'r-reshape2=1.4*' \
+    'r-nycflights13=0.1*' \
+    'r-caret=6.0*' \
+    'r-rcurl=1.95*' \
+    'r-randomforest=4.6*' && conda clean -tipsy
 
 RUN echo "r <- getOption('repos'); r['CRAN'] <- 'http://cran.us.r-project.org'; options(repos = r);" > ~/.Rprofile
-RUN Rscript -e "source('http://bioconductor.org/biocLite.R');biocLite(c('limma','GSA','Biobase','edgeR','locfit'))"
-RUN Rscript -e "install.packages(c('pheatmap','RColorBrewer','gProfileR','RJSONIO','httr'))"
+RUN Rscript -e "source('http://bioconductor.org/biocLite.R');biocLite(c('limma','GSA','Biobase','edgeR','locfit','RCy3'))"
+RUN Rscript -e "install.packages(c('pheatmap','RColorBrewer','gProfileR','RJSONIO','httr','ggplot2'))"
+
+#update the irkernel to fix issue with pdf output - need to have
+# at least 0.9 and latex issue is fixed
+#
+# reverted back to IRkernel 0.5 because plotting was not working 
+# in IRkernel 0.6
+RUN Rscript -e "devtools::install_github('IRkernel/repr')"
+
+
+RUN curl https://bioconductor.org/packages/release/bioc/src/contrib/RCy3_1.2.0.tar.gz -s -o /home/jovyan/RCy3_1.2.0.tar.gz
+#RUN Rscript -e "install.packages("RCy3_1.2.0.tar.gz", repos=NULL)
+RUN R CMD INSTALL /home/jovyan/RCy3_1.2.0.tar.gz
 
 USER root
 
 RUN apt-get update
 RUN apt-get install -y python python-dev python-distribute python-pip
-#RUN pip install networkx bokeh requests py2cytoscape biopython
+RUN pip install networkx bokeh requests py2cytoscape biopython
 
 
 # Accept Oracle JDK license 
-RUN echo "oracle-java8-installer shared/accepted-oracle-license-v1-1 select true" |  debconf-set-selections 
+#RUN echo "oracle-java8-installer shared/accepted-oracle-license-v1-1 select true" |  debconf-set-selections 
 
-ENV DEBIAN_FRONTEND noninteractive
-RUN apt-get install -y software-properties-common
+#ENV DEBIAN_FRONTEND noninteractive
+#RUN apt-get install -y software-properties-common
 
-RUN \
-    echo "===> add webupd8 repository..."  && \
-    echo "deb http://ppa.launchpad.net/webupd8team/java/ubuntu trusty main" | tee /etc/apt/sources.list.d/webupd8team-java.list  && \
-    echo "deb-src http://ppa.launchpad.net/webupd8team/java/ubuntu trusty main" | tee -a /etc/apt/sources.list.d/webupd8team-java.list  && \
-    apt-key adv --keyserver keyserver.ubuntu.com --recv-keys EEA14886  && \
-    apt-get update
-
-
-RUN echo "===> install Java"  && \
-    echo debconf shared/accepted-oracle-license-v1-1 select true | debconf-set-selections  && \
-    echo debconf shared/accepted-oracle-license-v1-1 seen true | debconf-set-selections  && \
-    DEBIAN_FRONTEND=noninteractive  apt-get install -y --force-yes oracle-java8-installer oracle-java8-set-default
+#RUN \
+#    echo "===> add webupd8 repository..."  && \
+#    echo "deb http://ppa.launchpad.net/webupd8team/java/ubuntu trusty main" | tee /etc/apt/sources.list.d/webupd8team-java.list  && \
+#    echo "deb-src http://ppa.launchpad.net/webupd8team/java/ubuntu trusty main" | tee -a /etc/apt/sources.list.d/webupd8team-java.list  && \
+#    apt-key adv --keyserver keyserver.ubuntu.com --recv-keys EEA14886  && \
+#    apt-get update
 
 
-RUN echo "===> clean up..."  && \
-    rm -rf /var/cache/oracle-jdk8-installer  && \
-    apt-get clean  && \
-    rm -rf /var/lib/apt/lists/*
+#RUN echo "===> install Java"  && \
+#    echo debconf shared/accepted-oracle-license-v1-1 select true | debconf-set-selections  && \
+#    echo debconf shared/accepted-oracle-license-v1-1 seen true | debconf-set-selections  && \
+#    DEBIAN_FRONTEND=noninteractive  apt-get install -y --force-yes oracle-java8-installer oracle-java8-set-default
 
-ENV JAVA_HOME=/usr/lib/jvm/java-8-oracle
+
+#RUN echo "===> clean up..."  && \
+#    rm -rf /var/cache/oracle-jdk8-installer  && \
+#    apt-get clean  && \
+#    rm -rf /var/lib/apt/lists/*
+
+#ENV JAVA_HOME=/usr/lib/jvm/java-8-oracle
 
 #install missing library that gives error when launching cytoscape
-RUN apt-get update
-RUN apt-get install libxtst6
-
-# Cytoscape Retrieval
-#WORKDIR /root 
-#ADD http://chianti.ucsd.edu/cytoscape-3.3.0/cytoscape-3.3.0.tar.gz /root/cytoscape-3.3.0.tar.gz
-#ADD PACKAGE/enrichmentmap-2.1.0.jar /root/CytoscapeConfiguration/3/apps/installed/enrichmentmap-2.1.0.jar
-
-#RUN tar -zxvf cytoscape-3.3.0.tar.gz 
-#RUN rm /root/cytoscape-3.3.0.tar.gz
+#RUN apt-get update
+#RUN apt-get install libxtst6
 
 USER jovyan
 
@@ -56,17 +95,12 @@ USER jovyan
 RUN conda install --yes psutil
 
 RUN cd /home/$NB_USER && \
-	git clone https://github.com/ipython-contrib/IPython-notebook-extensions.git && \
-	mkdir /home/$NB_USER/.local/share && \
-	mkdir /home/$NB_USER/.local/share/jupyter 
+	git clone https://github.com/ipython-contrib/IPython-notebook-extensions.git #&& \
+	#mkdir /home/$NB_USER/.local/share && \
+	#mkdir /home/$NB_USER/.local/share/jupyter 
 
 #install it
 RUN cd ~/IPython-notebook-extensions && \
 	python setup.py install
 
 
-#USER root
-#RUN echo '/root/cytoscape-unix-3.3.0/cytoscape.sh - R 1234' > /root/start.sh
-
-# Run Script on entrance
-#CMD sh /root/start.sh
