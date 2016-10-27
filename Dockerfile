@@ -1,4 +1,4 @@
-FROM jupyter/minimal-notebook
+FROM jupyter/r-notebook
 
 MAINTAINER Jupyter Project <jupyter@googlegroups.com>
 
@@ -15,25 +15,26 @@ RUN apt-get update && \
 USER $NB_USER
 
 # R packages
-RUN conda config --add channels r && \
-    conda install --quiet --yes \
-    'r-base=3.2*' \
-    'r-irkernel=0.5*' \
-    'r-plyr=1.8*' \
-    'r-devtools=1.9*' \
-    'r-dplyr=0.4*' \
-    'r-ggplot2=1.0*' \
-    'r-tidyr=0.3*' \
-    'r-shiny=0.12*' \
-    'r-rmarkdown=0.8*' \
-    'r-forecast=5.8*' \
-    'r-stringr=0.6*' \
-    'r-rsqlite=1.0*' \
-    'r-reshape2=1.4*' \
-    'r-nycflights13=0.1*' \
-    'r-caret=6.0*' \
-    'r-rcurl=1.95*' \
-    'r-randomforest=4.6*' && conda clean -tipsy
+#RUN conda config --add channels r && \
+#    conda install --quiet --yes \
+#    'r-base=3.3.1*' \
+#    'r-irkernel=0.7*' \
+#    'r-plyr=1.8*' \
+#    'r-devtools=1.11*' \
+#    'r-dplyr=0.4*' \
+#    'r-ggplot2=2.1*' \
+#    'r-tidyr=0.5*' \
+#    'r-shiny=0.13*' \
+#    'r-rmarkdown=0.9*' \
+#    'r-forecast=7.1*' \
+#    'r-stringr=1.0*' \
+#    'r-rsqlite=1.0*' \
+#    'r-reshape2=1.4*' \
+#    'r-nycflights13=0.2*' \
+#    'r-caret=6.0*' \
+#    'r-rcurl=1.95*' \
+#    'r-crayon=1.3*' \
+#    'r-randomforest=4.6*' && conda clean -tipsy
 
 RUN echo "r <- getOption('repos'); r['CRAN'] <- 'http://cran.us.r-project.org'; options(repos = r);" > ~/.Rprofile
 RUN Rscript -e "source('http://bioconductor.org/biocLite.R');biocLite(c('limma','GSA','Biobase','edgeR','locfit','RCy3'))"
@@ -44,18 +45,20 @@ RUN Rscript -e "install.packages(c('pheatmap','RColorBrewer','gProfileR','RJSONI
 #
 # reverted back to IRkernel 0.5 because plotting was not working 
 # in IRkernel 0.6
-RUN Rscript -e "devtools::install_github('IRkernel/repr')"
+#RUN Rscript -e "devtools::install_github('IRkernel/repr')"
 
 
-RUN curl https://bioconductor.org/packages/release/bioc/src/contrib/RCy3_1.2.0.tar.gz -s -o /home/jovyan/RCy3_1.2.0.tar.gz
+#RUN curl https://bioconductor.org/packages/release/bioc/src/contrib/RCy3_1.2.0.tar.gz -s -o /home/jovyan/RCy3_1.2.0.tar.gz
 #RUN Rscript -e "install.packages("RCy3_1.2.0.tar.gz", repos=NULL)
-RUN R CMD INSTALL /home/jovyan/RCy3_1.2.0.tar.gz
+#RUN R CMD INSTALL /home/jovyan/RCy3_1.2.0.tar.gz
+
 
 USER root
 
 RUN apt-get update
 RUN apt-get install -y python python-dev python-distribute python-pip
-RUN pip install networkx bokeh requests py2cytoscape biopython
+RUN apt-get -y install libreadline-dev
+RUN pip install networkx bokeh requests py2cytoscape biopython rpy2
 
 
 # Accept Oracle JDK license 
